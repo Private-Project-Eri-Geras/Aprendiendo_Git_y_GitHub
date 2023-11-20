@@ -71,6 +71,126 @@
 
     </div>
     <hr>
+    <div id="Comandos" class="container">
+        <h2>Comandos de Git</h2>
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 m-2">
+            <div class="col p-1 ">
+                <div class="capsula p-2">
+                    <h3>Clone</h3>
+                    <p>Crea una duplicación local de un repositorio remoto. Este comando es esencial cuando deseas
+                        obtener
+                        una
+                        copia
+                        de un proyecto existente para colaborar o trabajar en él de forma individual.
+                    </p>
+                    <p><b>$ git clone url_del_repositorio </b></p>
+                </div>
+            </div>
+            <div class="col  p-1">
+                <div class="capsula p-2">
+                    <h3>init </h3>
+                    <p>
+                        Inicializa un nuevo repositorio Git en tu directorio local. Este comando marca el inicio de un
+                        nuevo
+                        proyecto y establece el seguimiento de cambios en tu código.
+                    </p>
+                    <p><b>$ git init</b></p>
+                </div>
+            </div>
+
+            <div class="col  p-1">
+                <div class="capsula p-2">
+                    <h3>status </h3>
+                    <p>Proporciona información sobre el estado actual del repositorio, incluyendo archivos modificados,
+                        en
+                        el
+                        área de preparación y sin seguimiento.</p>
+                    <p><b>$ git status </b></p>
+                </div>
+            </div>
+
+            <div class="col  p-1">
+                <div class="capsula p-2">
+                    <h3>add</h3>
+                    Agrega archivos al área de preparación de Git, lo que significa que los cambios en esos archivos se
+                    incluirán en el próximo commit.</p>
+                    <p><b>$ git add ejemplo.txt </b></p>
+                    <p>Para agregar todos los archivos modificados usamos:</p>
+                    <p><b>$ git add -A </b></p>
+                </div>
+            </div>
+
+            <div class="col  p-1">
+                <div class="capsula p-2">
+                    <h3>commit </h3>
+                    <p>
+                        Guarda los cambios en tu repositorio local. Cuando haces un commit, agregas una descripción de
+                        los
+                        cambios que has hecho. Se usa con la opción -m seguida de un mensaje que describa los cambios
+                        realizados.</p>
+                    <p><b>$ git commit -m “Bug arreglado”</b></p>
+                </div>
+            </div>
+
+            <div class="col  p-1">
+                <div class="capsula p-2">
+                    <h3>pull </h3>
+                    <p>Descarga los cambios realizados en el repositorio remoto a tu repositorio local y los combina con
+                        tus
+                        cambios locales. Es útil cuando otros colaboradores han realizado cambios en el repositorio y
+                        necesitas
+                        actualizar tu copia local. </p>
+                    <p><b>$ git pull</b></p>
+                </div>
+            </div>
+
+            <div class="col  p-1">
+                <div class="capsula p-2">
+                    <h3>push </h3>
+                    <p>
+                        Sube los cambios realizados en tu repositorio local al repositorio remoto. Es útil para
+                        compartir
+                        tus
+                        cambios con otros colaboradores y asegurarte de que las versiones estén sincronizadas.
+                    </p>
+                    <p><b>$ git push </b></p>
+                </div>
+            </div>
+
+            <div class="col  p-1">
+                <div class="capsula p-2">
+                    <h3>branch </h3>
+                    <p>
+                        Crea, lista o borra ramas en tu repositorio. Las ramas son útiles para trabajar en
+                        características
+                        separadas sin afectar la rama principal. </p>
+
+                    <p><b>$ git branch nueva_rama</b></p>
+                </div>
+            </div>
+
+            <div class="col  p-1">
+                <div class="capsula p-2">
+                    <h3>merge </h3>
+                    <p>
+                        Combina los cambios de una rama en otra. Útil para integrar el trabajo realizado en una rama con
+                        la
+                        rama principal. </p>
+                    <p><b>$ git merge rama_a_combinar </b> </p>
+                </div>
+            </div>
+
+            <div class="col  p-1">
+                <div class="capsula p-2">
+                    <h3>rebase </h3>
+                    <p>
+                        Aplica los cambios de una rama sobre otra, reescribiendo la historia del proyecto. Útil para
+                        mantener un historial de commits más lineal.</p>
+                    <p><b>$ git rebase otra_rama </b></p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
