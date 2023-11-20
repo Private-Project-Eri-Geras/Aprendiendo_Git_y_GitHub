@@ -5,7 +5,6 @@ body {
 
 
 #styleheader {
-    margin-top: -13%;
     background-image: url(images/FondoNegro.jpeg);
     color: #fff;
     padding: 10px;
@@ -27,4 +26,33 @@ ul {
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+#Git,
+#GitHub,
+#Comandos {
+    padding: 10px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Git,
+#GitHub {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Git img,
+#GitHub img {
+    width: 45%;
+    height: auto;
+    margin: 1.5em;
+}
+
+.capsula {
+    border: 2px solid #000;
+    width: 100%;
+    height: 100%;
 }
